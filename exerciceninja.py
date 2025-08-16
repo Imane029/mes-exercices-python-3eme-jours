@@ -38,14 +38,11 @@ while True:
 #--------------------------------------
 # Exercice 3: Working on a paragraph
 #--------------------------------------
-import re
 
 import re
 
 print("\n--- Exercice 3 : Analyse de paragraphe ---")
-paragraphe = """
-La programmation est un processus fascinant qui consiste à concevoir, écrire, tester et maintenir des programmes informatiques. Ces programmes sont des séquences d'instructions qui permettent à un ordinateur d'exécuter des tâches spécifiques. Les langages de programmation, tels que Python, Java et C++, sont les outils avec lesquels les développeurs communiquent avec les machines. C'est un domaine en constante évolution, qui nécessite de la logique et de la créativité. Les mots et les symboles de ces langages construisent les blocs de l'avenir.
-"""
+paragraphe = input("Veuillez saisir votre paragraphe de texte : ")
 
 nombre_caracteres = len(paragraphe)
 print(f"Le paragraphe contient {nombre_caracteres} caractères.")
